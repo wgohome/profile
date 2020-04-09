@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&family=Roboto:wght@400;700&display=swap");
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
+
+body {
+  background-color: #eae7d9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400px;
+  color: #7f5d11;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500px;
+  color: #38686A;
+  line-height: 1.8;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+a {
+  color: #dc9f15;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #38686A;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  margin: 24px;
+  padding: 16px;
+  box-shadow: 5px, 5px, 15px, rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  background-color: #7f5d11;
+  color: antiquewhite;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #38686A;
+  color: antiquewhite;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pic-med {
+  width: 100px;
+  height: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
